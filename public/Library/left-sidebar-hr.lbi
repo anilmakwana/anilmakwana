@@ -1,0 +1,41 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="slidemenu" class="left side-menu nav-menu">
+    <div class="nav-wrapper">
+        <ul class="nav flex-column logout-container">
+            <li class="nav-item dropdown"> <a class="company-section nav-link dropdown-toggle d-flex align-items-center" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">
+                <div class="bg-white p-10 m-0 rounded-circle text-primary lineheight1"><i class="far fa-building"></i></div>
+                <div class="nav-menu-text d-inline-block ml-10"><span class="d-block menu-title">Umang's Company</span> <span class="user-name">Umang Patel - Admin</span></div>
+                </a>
+                <div class="dropdown-menu"> <a class="dropdown-item" href="javascript:void(0)">Projects &amp; Permanent Tasks</a> <a class="dropdown-item" href="javascript:void(0)">User Settings</a> <a class="dropdown-item" href="javascript:void(0)">Payoneer Settings</a> <a class="dropdown-item" href="javascript:void(0)">Work Schedules</a> <a class="dropdown-item" href="javascript:void(0)">Your Integrations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../login.html">Sign Out</a> </div>
+            </li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="../dashboard.html"><i class="far fa-chart-bar"></i><span class="nav-menu-text">Dashboard</span></a> </li>
+            <li class="nav-item"><a class="nav-link" href="../client.html"><i class="fas fa-users"></i><span class="nav-menu-text">Client</span></a> </li>
+            <li class="nav-item"><a class="nav-link" href="../project.html"><i class="fas fa-hand-holding-usd"></i><span class="nav-menu-text">Project</span></a></li>
+			<li class="nav-item"><a class="nav-link" href="../library.html"><i class="fas fa-users"></i><span class="nav-menu-text">Library</span></a> </li>
+			<li class="nav-item"><a class="nav-link" href="../checklist.html"><i class="fas fa-list-ul"></i><span class="nav-menu-text">Template</span></a> </li>
+            <li class="nav-item"><a class="nav-link" href="../mis-report.html"><i class="fas fa-file-invoice-dollar"></i><span class="nav-menu-text">MIS Reports</span></a></li>
+			<li class="nav-item"><a class="nav-link" href="../settings.html"><i class="fas fa-sliders-h"></i><span class="nav-menu-text">Settings</span></a> </li>
+            <!--<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-sliders-h"></i><span class="nav-menu-text">Settings</span></a>
+				<div class="dropdown-menu"> <a class="dropdown-item" href="../requisition.html">Department</a> <a class="dropdown-item" href="../candidate.html">Core</a> <a class="dropdown-item" href="../user-list.html">User</a></div>
+            </li>-->
+            <!--<li class="nav-item"><a class="nav-link" href="../assets.html"><i class="fas fa-box"></i><span class="nav-menu-text">Assets</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="javascript:void()"><i class="fas fa-plane"></i><span class="nav-menu-text">Travel</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="javascript:void()"><i class="fas fa-chalkboard-teacher"></i><span class="nav-menu-text">Training</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="../incident.html"><i class="far fa-hand-paper"></i><span class="nav-menu-text">Incident</span></a></li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-sliders-h"></i><span class="nav-menu-text">Configurations</span></a>
+                <div class="dropdown-menu"> <a class="dropdown-item" href="../configure-leave.html">Leave</a> <a class="dropdown-item" href="../configure-service-request.html">Service Request</a> <a class="dropdown-item" href="../configure-holidays.html">Holidays</a> <a class="dropdown-item" href="../configure-expense.html">Expense</a> <a class="dropdown-item" href="../configure-policy.html">Policy</a> <a class="dropdown-item" href="../configure-announcement.html">Announcement</a> </div>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-chart-pie"></i><span class="nav-menu-text">Reports</span></a>
+                <div class="dropdown-menu"> <a class="dropdown-item" href="javascript:void(0)">Leave Report</a> <a class="dropdown-item" href="javascript:void(0)">Service Report</a> <a class="dropdown-item" href="javascript:void(0)">Expense Report</a> </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="../log-report.html"><i class="fas fa-chart-pie"></i><span class="nav-menu-text">Log Report</span></a></li>-->
+        </ul>
+    </div>
+    <div class="fixed-bottom bg-gray">
+        <button class="btn button-menu-mobile open-left pull-left btn-default m-l-40 m-r-20 bg-none f-22 p-l-5 p-r-5 p-t-10 p-b-10 menu-icon-button"><i class="fa fa-chevron-left"></i></button>
+    </div>
+</div>

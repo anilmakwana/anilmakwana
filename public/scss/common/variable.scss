@@ -1,0 +1,59 @@
+/* Scss Document */
+$primary-font-family : 'Rubik', sans-serif;
+$secondary-font-family : 'Roboto', sans-serif;
+
+$bg-light-gray : #F2F4F8;
+$color-primary : /*#0a76ea*//*#f88379*/#236cb9;
+$color-secondary : #222222;
+$color-white : #ffffff;
+$color-orange: #ff7a59;
+
+$bg-primary : /*#0a76ea*//*#f88379*/#2b405b;
+$bg-secondary : #222222;
+$bg-third : #e5e5e5;
+$bg-four : #F2F4F8;
+$bg-white : #FFFFFF;
+$border-color: #cfd8dc;
+$bg-light-primary: #55667b;
+$bg-orange: #ff7a59;
+
+$base-font-size : 16px;
+
+$bg-default: #0a76ea;
+
+$font-size-lg: ($base-font-size * 1.25);
+$font-size-sm: ($base-font-size * .875);
+$input-height: 2.375rem;
+$input-height-sm: 1.9375rem;
+$input-height-lg: 3rem;
+$input-btn-focus-width: .2rem;
+$custom-control-indicator-bg: #dee2e6;
+$custom-control-indicator-disabled-bg: #e9ecef;
+$custom-control-description-disabled-color: #868e96;
+$white: white;
+$theme-colors: (
+  'primary': #08d
+);
+
+//
+// These variables can be used to customize the switch component.
+//
+$switch-height: calc(#{$input-height} * .8) !default;
+$switch-height-sm: calc(#{$input-height-sm} * .8) !default;
+$switch-height-lg: calc(#{$input-height-lg} * .8) !default;
+$switch-border-radius: $switch-height !default;
+$switch-bg: $custom-control-indicator-bg !default;
+$switch-checked-bg: map-get($theme-colors, 'primary') !default;
+$switch-disabled-bg: $custom-control-indicator-disabled-bg !default;
+$switch-disabled-color: $custom-control-description-disabled-color !default;
+$switch-thumb-bg: $white !default;
+$switch-thumb-border-radius: 50% !default;
+$switch-thumb-padding: 2px !default;
+$switch-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(map-get($theme-colors, 'primary'), .25);
+$switch-transition: .2s all !default;
+
+/**/
+$desktop-time-color: #51be71;
+$mobile-time-color: #6293df;
+$edit-time-color: #ffb200;
+

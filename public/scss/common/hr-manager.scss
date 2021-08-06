@@ -1,0 +1,202 @@
+@import "variable";
+.custom-select {-webkit-appearance: none; -moz-appearance: none; appearance: none; min-width: 70px;}
+.btn:focus {box-shadow: none !important;}
+.input-group-text {border-color: $border-color; border-width: 2px;}
+.input-group-append {
+	.input-group-text {
+		border-width: 2px 2px 2px 0px;
+	}
+}
+.v-middle {
+	vertical-align: middle !important;
+}
+.bg-primary {
+	background: $bg-primary !important;
+}
+.bg-default {
+	background: $bg-default !important;
+}
+.page-item.active {
+	.page-link {
+		background-color: $bg-primary;	
+		border-color: $bg-primary;
+	}
+}
+.page-link {
+	color: $color-primary;
+}
+a {
+	color: $color-primary;
+	&:hover,
+	&:focus {
+		color: $color-secondary;
+	}
+}
+.btn-primary {
+	background-color: $bg-primary;
+	border-color: $bg-primary;	
+	&:hover, &:focus {
+		background-color: $bg-secondary;
+		border-color: $bg-secondary;
+		color: $color-white;
+	}
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+	background-color: $bg-secondary;
+	border-color: $bg-secondary;
+}
+.dropdown-item.active, .dropdown-item:active {
+	background-color: $bg-primary;
+}
+.hr-manager-admin {	
+	background: $bg-white;
+	.dataTables_wrapper {
+		.row > {
+			div[class^="col-"] {padding: 0 !important;}
+		}		
+		.dataTables_paginate {
+			ul.pagination {
+				margin: 5px 0;
+			}
+		}
+	}
+	.card {
+		margin-bottom: 15px;
+	}			
+}
+.cust-tab-list {
+	li {
+		.cust-tab-list-item {
+			border-bottom: 1px solid $custom-control-indicator-bg;			
+		}
+		&:last-child {
+			.cust-tab-list-item {
+				border-bottom: none !important;
+			}
+		}
+	
+		ul{
+			list-style: none !important; padding: 0; margin: 0;
+			li{padding:0; list-style: none !important;				
+				&:last-child {
+					.cust-tab-list-item {
+						border-bottom: 1px solid $custom-control-indicator-bg !important;
+					}	
+				}	
+				.cust-tab-list-item{border-bottom: 1px solid $custom-control-indicator-bg; padding: 10px 10px 10px 3% !important;}
+					 ul{
+						list-style: none !important; padding: 0; margin: 0;
+						li{padding:0; list-style: none !important;				
+							&:last-child {
+								.cust-tab-list-item {
+									border-bottom: 1px solid $custom-control-indicator-bg !important;
+								}	
+							}	
+							.cust-tab-list-item{border-bottom: 1px solid $custom-control-indicator-bg; padding: 10px 10px 10px 6% !important;}
+								  ul{
+								list-style: none !important; padding: 0; margin: 0;
+								li{padding:0; list-style: none !important;				
+									&:last-child {
+										.cust-tab-list-item {
+											border-bottom: 1px solid $custom-control-indicator-bg !important;
+										}	
+									}	
+									.cust-tab-list-item{border-bottom: 1px solid $custom-control-indicator-bg; padding: 10px 10px 10px 9% !important;}
+								}
+
+							}	
+						}
+
+				}	
+			}
+
+		}
+	}
+}
+.cust-tab-list-item {	
+	&:after {
+		display: none;
+		content: ">";
+	}
+	&.active {
+		background: $bg-primary;
+		color: $color-white;
+		&:after {
+			display: inline-block;
+		}
+	}
+}
+.cust-tab-content {
+	.cust-tab-content-item {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+}
+
+/**/
+.cc-list-group { 
+	border: 1px solid $border-color;
+	border-bottom: 0px solid $border-color; list-style: none; margin: 0; padding: 0;
+	.cc-list-item {
+		display: block;
+		border-bottom: 1px solid $border-color;
+		padding: 10px 10px 10px 10px;
+	}
+	
+	ul{
+			list-style: none !important; padding: 0; margin: 0;
+			li{padding:0; list-style: none !important;				
+				&:last-child {
+					.cc-list-item {
+						border-bottom: 1px solid $custom-control-indicator-bg !important;
+					}	
+				}	
+				.cc-list-item{border-bottom: 1px solid $custom-control-indicator-bg; padding: 10px 10px 10px 3% !important;}
+					 ul{
+						list-style: none !important; padding: 0; margin: 0;
+						li{padding:0; list-style: none !important;				
+							&:last-child {
+								.cc-list-item {
+									border-bottom: 1px solid $custom-control-indicator-bg !important;
+								}	
+							}	
+							.cc-list-item{border-bottom: 1px solid $custom-control-indicator-bg; padding: 10px 10px 10px 6% !important;}
+								  ul{
+								list-style: none !important; padding: 0; margin: 0;
+								li{padding:0; list-style: none !important;				
+									&:last-child {
+										.cc-list-item {
+											border-bottom: 1px solid $custom-control-indicator-bg !important;
+										}	
+									}	
+									.cc-list-item{border-bottom: 1px solid $custom-control-indicator-bg; padding: 10px 10px 10px 9% !important;}
+								}
+
+							}	
+						}
+
+				}	
+			}
+
+		}
+	
+	
+	.cc-option-dropdown {
+		position: absolute; 
+		display: none;
+		right: 0px;
+		top: 100%;
+		border: 1px solid $border-color;
+		border-bottom: 0px solid $border-color;
+		min-width: 280px;
+		background: $bg-white;
+		font-size: 13px;
+		z-index: 10;
+		li {
+			padding: 5px 10px;
+			border-bottom: 1px solid $border-color;
+		}
+	}
+}
